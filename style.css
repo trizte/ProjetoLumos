@@ -14,7 +14,7 @@ body{
     font-size: 30px; /*usar os titulos com a tag h1 pra ficar bom*/ 
     text-align: center;
     color:white;
-
+    margin:125px;
 }
 
 .subtitle  {
@@ -22,19 +22,47 @@ body{
     font-weight: 600; /*semi-bold*/
     font-size: 50px;
     color:white;
+    text-align: start;
 }
 
+/*pagina perfil*/
 .perfil {
     font-family: 'Manrope', sans-serif;
     color: white;
+    background: #474747;
+    border-radius: 70px;
+    padding: 20px;
+    margin: 0px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nome {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 30px 0px 0px 0px;
+    border-bottom: 1px solid white;
+    width: 625px; 
+}
+
+.minhaconta{
+    margin: 20px 0px 0px 0px;
+    font-weight: 100;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
 }
 
 #abel  {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     max-width: 100%;
     object-fit: cover;
     border-radius: 50%;
+    padding: 18px 40px 18px 18px;
   }
 
 .ajustes {
@@ -42,5 +70,14 @@ body{
     justify-content: flex-start;
     align-items: start;
     flex-direction: column;
+    background: #474747;
+    border-radius: 70px;
+    margin: 40px;
+    padding:40px;
 }
-  
+
+.editargastos {
+    display:flex;
+    flex-direction: row;
+}
+/*fim pagina perfil*/
